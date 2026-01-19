@@ -1,0 +1,938 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.55.2",
+    "schemaVersion": 1011,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@jsx",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@jsxRuntime",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@jsxFrag",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@jsxImportSource",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      },
+      "reportUnsupportedHtmlElements": false
+    }
+  },
+  "projectFolderUrl": "https://github.com/sodium-labs/utilities",
+  "kind": "Package",
+  "canonicalReference": "@sodiumlabs/ms!",
+  "docComment": "",
+  "name": "@sodiumlabs/ms",
+  "preserveMemberOrder": false,
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@sodiumlabs/ms!",
+      "name": "",
+      "preserveMemberOrder": false,
+      "members": [
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@sodiumlabs/ms!CompleteLocaleDefinition:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export type CompleteLocaleDefinition = "
+            },
+            {
+              "kind": "Reference",
+              "text": "LocaleDefinition",
+              "canonicalReference": "@sodiumlabs/ms!LocaleDefinition:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " & {\n    mappedUnits: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Map",
+              "canonicalReference": "!Map:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<string, "
+            },
+            {
+              "kind": "Reference",
+              "text": "Unit",
+              "canonicalReference": "@sodiumlabs/ms!Unit:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">;\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/locales.ts",
+          "releaseTag": "Public",
+          "name": "CompleteLocaleDefinition",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 7
+          }
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@sodiumlabs/ms!format:function(1)",
+          "docComment": "/**\n * Format the given integer as a string.\n *\n * @param ms - milliseconds\n *\n * @param options - Options for the conversion\n *\n * @returns The formatted string\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function format(ms: "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ", options?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Options",
+              "canonicalReference": "@sodiumlabs/ms!Options:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "ms",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "options",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "format"
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@sodiumlabs/ms!LocaleDefinition:interface",
+          "docComment": "/**\n * The options and translations of a locale.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface LocaleDefinition "
+            }
+          ],
+          "fileUrlPath": "src/locales.ts",
+          "releaseTag": "Public",
+          "name": "LocaleDefinition",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!LocaleDefinition#units:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "units: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Record",
+                  "canonicalReference": "!Record:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Unit",
+                  "canonicalReference": "@sodiumlabs/ms!Unit:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "UnitDefinition",
+                  "canonicalReference": "@sodiumlabs/ms!UnitDefinition:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "units",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 7
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@sodiumlabs/ms!locales:var",
+          "docComment": "/**\n * The locales definitions. You can add or edit a locale definition directly here, or use {@link setLocale}.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "locales: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Map",
+              "canonicalReference": "!Map:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<string, "
+            },
+            {
+              "kind": "Reference",
+              "text": "CompleteLocaleDefinition",
+              "canonicalReference": "@sodiumlabs/ms!CompleteLocaleDefinition:type"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            }
+          ],
+          "fileUrlPath": "src/locales.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "locales",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          }
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@sodiumlabs/ms!ms:function(1)",
+          "docComment": "/**\n * Parse or format the given value.\n *\n * **Note:** returns `NaN` if `value` was a string and could not be parsed.\n *\n * @param value - The string or number to convert\n *\n * @param options - Options for the conversion\n *\n * @throws\n *\n * Error if `value` is not a non-empty string or a number\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function ms(value: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", options?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Options",
+              "canonicalReference": "@sodiumlabs/ms!Options:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "value",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "options",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "ms"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@sodiumlabs/ms!ms:function(2)",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function ms(value: "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ", options?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Options",
+              "canonicalReference": "@sodiumlabs/ms!Options:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 2,
+          "parameters": [
+            {
+              "parameterName": "value",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "options",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "ms"
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@sodiumlabs/ms!Options:interface",
+          "docComment": "/**\n * The options.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface Options "
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "releaseTag": "Public",
+          "name": "Options",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!Options#compound:member",
+              "docComment": "/**\n * Format the duration with multiple units, e.g. `2m50s100ms` instead of `2m`.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "compound?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "compound",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!Options#locale:member",
+              "docComment": "/**\n * The locale. Defaults to `en`.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "locale?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "locale",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!Options#long:member",
+              "docComment": "/**\n * Set to `true` to use verbose formatting. Defaults to `false`.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "long?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "long",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!Options#maxUnits:member",
+              "docComment": "/**\n * The max amount of units used in the compound format.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "maxUnits?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "maxUnits",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@sodiumlabs/ms!parse:function(1)",
+          "docComment": "/**\n * Parse the given string and return milliseconds.\n *\n * @param str - A string to parse into milliseconds. Length must be in [1;100]\n *\n * @returns The parsed value in milliseconds, or `NaN` if the string can't be parsed\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function parse(str: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", options?: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Options",
+              "canonicalReference": "@sodiumlabs/ms!Options:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Content",
+              "text": "number"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/index.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "str",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "options",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": true
+            }
+          ],
+          "name": "parse"
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@sodiumlabs/ms!setLocale:function(1)",
+          "docComment": "/**\n * Add or edit a locale definition.\n *\n * @param locale - The locale (e.g. `it`)\n *\n * @param definition - The definition\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "setLocale: (locale: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            },
+            {
+              "kind": "Content",
+              "text": ", definition: "
+            },
+            {
+              "kind": "Reference",
+              "text": "LocaleDefinition",
+              "canonicalReference": "@sodiumlabs/ms!LocaleDefinition:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ") => "
+            },
+            {
+              "kind": "Content",
+              "text": "void"
+            }
+          ],
+          "fileUrlPath": "src/locales.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 5,
+            "endIndex": 6
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "locale",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            },
+            {
+              "parameterName": "definition",
+              "parameterTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "setLocale"
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@sodiumlabs/ms!Unit:type",
+          "docComment": "/**\n * A time unit.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export type Unit = "
+            },
+            {
+              "kind": "Content",
+              "text": "(typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "units",
+              "canonicalReference": "@sodiumlabs/ms!units:var"
+            },
+            {
+              "kind": "Content",
+              "text": ")[number]"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "src/units.ts",
+          "releaseTag": "Public",
+          "name": "Unit",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 4
+          }
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@sodiumlabs/ms!UnitDefinition:interface",
+          "docComment": "/**\n * The translations of a time unit.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface UnitDefinition "
+            }
+          ],
+          "fileUrlPath": "src/locales.ts",
+          "releaseTag": "Public",
+          "name": "UnitDefinition",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!UnitDefinition#long:member",
+              "docComment": "/**\n * The long name of the unit.\n *\n * @param c - The absolute value of the rounded number.\n *\n * @example\n * ```ts\n * long: c => (c > 1 ? \"plural form\" : \"singular form\")\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "long: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(c: number) => string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "long",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!UnitDefinition#names:member",
+              "docComment": "/**\n * The names of the unit. Should be all lowercase.\n *\n * @remarks\n *\n * The values of `short` and `long` are not automatically added to this array, so you probably want to add them here too if you want them to be used in the parse function.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "names: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "names",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@sodiumlabs/ms!UnitDefinition#short:member",
+              "docComment": "/**\n * The short name of the unit.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "short: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "short",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@sodiumlabs/ms!units:var",
+          "docComment": "/**\n * The available time units.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "units: "
+            },
+            {
+              "kind": "Content",
+              "text": "readonly [\"millisecond\", \"second\", \"minute\", \"hour\", \"day\", \"week\", \"month\", \"year\"]"
+            }
+          ],
+          "fileUrlPath": "src/units.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "units",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        }
+      ]
+    }
+  ]
+}

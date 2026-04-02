@@ -1,0 +1,1005 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.57.7",
+    "schemaVersion": 1011,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@jsx",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@jsxRuntime",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@jsxFrag",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@jsxImportSource",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      },
+      "reportUnsupportedHtmlElements": false
+    }
+  },
+  "projectFolderUrl": "https://github.com/voctal/utilities",
+  "kind": "Package",
+  "canonicalReference": "@voctal/snowflake!",
+  "docComment": "",
+  "name": "@voctal/snowflake",
+  "preserveMemberOrder": false,
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@voctal/snowflake!",
+      "name": "",
+      "preserveMemberOrder": false,
+      "members": [
+        {
+          "kind": "Interface",
+          "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake:interface",
+          "docComment": "/**\n * Object returned by `Snowflake#deconstruct`.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface DeconstructedSnowflake "
+            }
+          ],
+          "fileUrlPath": "src/snowflake.ts",
+          "releaseTag": "Public",
+          "name": "DeconstructedSnowflake",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake#epoch:member",
+              "docComment": "/**\n * The epoch to use in the snowflake.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "epoch: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "epoch",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake#id:member",
+              "docComment": "/**\n * The id in BigInt form.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "id: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "id",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake#increment:member",
+              "docComment": "/**\n * The increment stored in the snowflake.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "increment: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "increment",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake#processId:member",
+              "docComment": "/**\n * The process id stored in the snowflake.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "processId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "processId",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake#timestamp:member",
+              "docComment": "/**\n * The timestamp stored in the snowflake.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "timestamp: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "timestamp",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake#workerId:member",
+              "docComment": "/**\n * The worker id stored in the snowflake.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "workerId: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "workerId",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@voctal/snowflake!discordSnowflake:var",
+          "docComment": "/**\n * A class for parsing snowflake ids using Discord's snowflake epoch.\n *\n * The Discord epoch is `1420070400000` (`2015-01-01T00:00:00.000Z`), see {@link https://discord.com/developers/docs/reference#snowflakes}.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "discordSnowflake: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Snowflake",
+              "canonicalReference": "@voctal/snowflake!Snowflake:class"
+            }
+          ],
+          "fileUrlPath": "src/discord-snowflake.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "discordSnowflake",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@voctal/snowflake!MaximumIncrement:var",
+          "docComment": "/**\n * The maximum value the `increment` field accepts in snowflakes.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "MaximumIncrement = "
+            },
+            {
+              "kind": "Content",
+              "text": "4095n"
+            }
+          ],
+          "fileUrlPath": "src/snowflake.ts",
+          "initializerTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "MaximumIncrement",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@voctal/snowflake!MaximumProcessId:var",
+          "docComment": "/**\n * The maximum value the `processId` field accepts in snowflakes.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "MaximumProcessId = "
+            },
+            {
+              "kind": "Content",
+              "text": "31n"
+            }
+          ],
+          "fileUrlPath": "src/snowflake.ts",
+          "initializerTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "MaximumProcessId",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@voctal/snowflake!MaximumWorkerId:var",
+          "docComment": "/**\n * The maximum value the `workerId` field accepts in snowflakes.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "MaximumWorkerId = "
+            },
+            {
+              "kind": "Content",
+              "text": "31n"
+            }
+          ],
+          "fileUrlPath": "src/snowflake.ts",
+          "initializerTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          },
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "MaximumWorkerId",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Class",
+          "canonicalReference": "@voctal/snowflake!Snowflake:class",
+          "docComment": "/**\n * A class for generating and deconstructing snowflakes.\n *\n * A {@link https://en.wikipedia.org/wiki/Snowflake_ID | snowflake} is a 64-bit unsigned integer with 4 fields that have a fixed epoch value.\n *\n * If we have a snowflake `266241948824764416` we can represent it as binary:\n * ```\n * 64                                          22     17     12          0\n *  000000111011000111100001101001000101000000  00001  00000  000000000000\n *           number of ms since epoch           worker  pid    increment\n * ```\n *\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class Snowflake "
+            }
+          ],
+          "fileUrlPath": "src/snowflake.ts",
+          "releaseTag": "Public",
+          "isAbstract": false,
+          "name": "Snowflake",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Constructor",
+              "canonicalReference": "@voctal/snowflake!Snowflake:constructor(1)",
+              "docComment": "/**\n * Constructs a new instance of the `Snowflake` class\n *\n * @param epoch - The epoch to use.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "constructor(epoch: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number | bigint | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Date",
+                  "canonicalReference": "!Date:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ");"
+                }
+              ],
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "epoch",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 3
+                  },
+                  "isOptional": false
+                }
+              ]
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@voctal/snowflake!Snowflake.compare:member(1)",
+              "docComment": "/**\n * Returns a number indicating whether a reference snowflake comes before, or after, or is same as the given snowflake in sort order.\n *\n * @param a - The first snowflake to compare.\n *\n * @param b - The second snowflake to compare.\n *\n * @returns `-1` if `a` is older than `b`, `0` if `a` and `b` are equals, `1` if `a` is newer than `b`.\n *\n * @example\n *\n * Sort snowflakes in ascending order\n * ```typescript\n * const ids = ['737141877803057244', '1056191128120082432', '254360814063058944'];\n * console.log(ids.sort((a, b) => Snowflake.compare(a, b)));\n * // → ['254360814063058944', '737141877803057244', '1056191128120082432'];\n * ```\n *\n * @example\n *\n * Sort snowflakes in descending order\n * ```typescript\n * const ids = ['737141877803057244', '1056191128120082432', '254360814063058944'];\n * console.log(ids.sort((a, b) => -Snowflake.compare(a, b)));\n * // → ['1056191128120082432', '737141877803057244', '254360814063058944'];\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "static compare(a: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string | bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", b: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string | bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "-1 | 0 | 1"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": true,
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "a",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "b",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "compare"
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@voctal/snowflake!Snowflake#deconstruct:member(1)",
+              "docComment": "/**\n * Deconstructs a snowflake.\n *\n * @param id - The snowflake to deconstruct.\n *\n * @returns A deconstructed snowflake.\n *\n * @example\n * ```typescript\n * const epoch = new Date('2000-01-01T00:00:00.000Z');\n * const snowflake = new Snowflake(epoch).deconstruct('3971046231244935168');\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "deconstruct(id: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string | bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "DeconstructedSnowflake",
+                  "canonicalReference": "@voctal/snowflake!DeconstructedSnowflake:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "id",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "deconstruct"
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@voctal/snowflake!Snowflake#epoch:member",
+              "docComment": "/**\n * The epoch for this snowflake, as a bigint.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "get epoch(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "epoch",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@voctal/snowflake!Snowflake#epochNumber:member",
+              "docComment": "/**\n * The epoch for this snowflake, as a number.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "get epochNumber(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": true,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "epochNumber",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@voctal/snowflake!Snowflake#generate:member(1)",
+              "docComment": "/**\n * Generates a snowflake given an epoch and optionally a timestamp.\n *\n * **Note:** when `increment` is not provided it defaults to the private `increment` of the instance.\n *\n * @param options - Options to pass into the generator, see {@link SnowflakeGenerateOptions}.\n *\n * @returns A unique snowflake.\n *\n * @example\n * ```typescript\n * const epoch = new Date('2000-01-01T00:00:00.000Z');\n * const snowflake = new Snowflake(epoch).generate();\n * ```\n *\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "generate(input?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SnowflakeGenerateOptions",
+                  "canonicalReference": "@voctal/snowflake!SnowflakeGenerateOptions:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "{ increment, timestamp, workerId, processId, }",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "isOptional": true
+                },
+                {
+                  "parameterName": "input",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": true
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "generate"
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@voctal/snowflake!Snowflake#processId:member",
+              "docComment": "/**\n * Gets or sets the configured process ID.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "get processId(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n\nset processId(value: number | bigint);"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "processId",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            },
+            {
+              "kind": "Method",
+              "canonicalReference": "@voctal/snowflake!Snowflake#timestampFrom:member(1)",
+              "docComment": "/**\n * Retrieves the timestamp field's value from a snowflake.\n *\n * @param id - The snowflake to get the timestamp value from.\n *\n * @returns The UNIX timestamp that is stored in `id`.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "timestampFrom(id: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string | bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isStatic": false,
+              "returnTypeTokenRange": {
+                "startIndex": 3,
+                "endIndex": 4
+              },
+              "releaseTag": "Public",
+              "isProtected": false,
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "id",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                }
+              ],
+              "isOptional": false,
+              "isAbstract": false,
+              "name": "timestampFrom"
+            },
+            {
+              "kind": "Property",
+              "canonicalReference": "@voctal/snowflake!Snowflake#workerId:member",
+              "docComment": "/**\n * Gets or sets the configured worker ID.\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "get workerId(): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";\n\nset workerId(value: number | bigint);"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "workerId",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isStatic": false,
+              "isProtected": false,
+              "isAbstract": false
+            }
+          ],
+          "implementsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@voctal/snowflake!SnowflakeGenerateOptions:interface",
+          "docComment": "/**\n * Options for `Snowflake#generate`.\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface SnowflakeGenerateOptions "
+            }
+          ],
+          "fileUrlPath": "src/snowflake.ts",
+          "releaseTag": "Public",
+          "name": "SnowflakeGenerateOptions",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!SnowflakeGenerateOptions#increment:member",
+              "docComment": "/**\n * The increment to use.\n *\n * @remarks\n *\n * keep in mind that this bigint is auto-incremented between generate calls.\n *\n * @defaultValue 0n\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "increment?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "increment",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!SnowflakeGenerateOptions#processId:member",
+              "docComment": "/**\n * The process ID to use, will be truncated to 5 bits (0-31).\n *\n * @defaultValue 1n\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "processId?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "processId",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!SnowflakeGenerateOptions#timestamp:member",
+              "docComment": "/**\n * Timestamp or date of the snowflake to generate.\n *\n * @defaultValue Date.now()\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "timestamp?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number | bigint | "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Date",
+                  "canonicalReference": "!Date:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "timestamp",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@voctal/snowflake!SnowflakeGenerateOptions#workerId:member",
+              "docComment": "/**\n * The worker ID to use, will be truncated to 5 bits (0-31).\n *\n * @defaultValue 0n\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "workerId?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "bigint"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isReadonly": false,
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "workerId",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        }
+      ]
+    }
+  ]
+}
